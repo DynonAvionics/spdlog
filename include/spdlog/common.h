@@ -66,6 +66,7 @@ using level_t = std::atomic<int>;
 namespace level {
 enum level_enum
 {
+    disable = -1,
     trace = 0,
     debug = 1,
     info = 2,
