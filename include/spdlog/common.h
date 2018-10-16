@@ -75,6 +75,7 @@ using log_err_handler = std::function<void(const std::string &err_msg)>;
 namespace level {
 enum level_enum
 {
+    disable = -1,
     trace = 0,
     debug = 1,
     info = 2,
